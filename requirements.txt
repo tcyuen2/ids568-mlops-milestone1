@@ -1,0 +1,9 @@
+
+# All dependencies are from slide 31 (updated)
+
+fastapi==0.128.0
+uvicorn==0.40.0
+pydantic==2.12.5
+scikit-learn==1.8.0
+joblib==1.5.3
+numpy==2.4.1
