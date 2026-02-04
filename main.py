@@ -1,17 +1,4 @@
-"""
-FastAPI Iris Classifier API
 
-This module implements a production-ready prediction service for the Iris dataset.
-It demonstrates key MLOps concepts:
-- Pydantic request/response validation
-- Deterministic model loading at startup (not per-request)
-- Proper HTTP status codes (200, 422, 500)
-- Health endpoints for orchestration
-
-Lifecycle Position: Model Artifact → API Service → Consumer
-This service sits between the trained model artifact and downstream consumers,
-providing a standardized REST interface for predictions.
-"""
 import joblib
 import numpy as np
 from fastapi import FastAPI, HTTPException
